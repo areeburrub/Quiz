@@ -1,0 +1,39 @@
+body{
+  background: linear-gradient(45deg,#c4f7f7,#f7e0a1) no-repeat center center fixed;
+  background-size:cover;
+  padding-bottom: 20vh;
+}
+.page-footer{
+  position:fixed;
+  bottom:0;
+  left:0;
+  width: 100%;
+}
+#progress {
+  position: sticky;
+  bottom:0;
+  left:0;
+  height: 20px;
+  width:0px;
+  background:linear-gradient(60deg,#fdad8e,#b2ffc5);
+  transition: 0.1s;
+  margin-top:2ch;
+  border-radius: 15px;
+}
+.score{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2em;
+  text-align:center;
+  width:100%;
+}
+.Qnum{
+  font-family: cursive;
+  font-size: 2ch;
+}
+#time{
+  background:linear-gradient(75deg,#d1966f,#ffc5c5);
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2ch;
+  text-align: center;
+}

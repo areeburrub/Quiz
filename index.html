@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- Google Materalize fonts -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+</head>
+<body>
+          
+    <div class="container-flex">
+        <div class="row">
+            <div class="col l12 s12 center-align">
+                <h3>Simple Quiz app</h3>
+            </div>
+        </div>
+        <div class="row">
+
+            <!-- Question Col Starts -->
+            <div class="col l8 s12" id="question-col">
+                <div class="card" id="question-card" style="padding:.5%; ">
+                    <div class="card-container z-depth-3" style="border-radius: 15px; background: linear-gradient(45deg,#e2f1ff,#ffe8e8); padding:.5%; margin-left: auto; margin-right: auto;">
+                    <div id='quiz'></div>
+                    <div id="opt" class="center-align" style="margin:2%;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Detail Col -->
+            <div class="col l4 s12" id="details-col">
+
+                <!-- Question Status -->
+                <div class="card" id="status-card" style="padding:.5%; background:linear-gradient(60deg,#d4fff1,#d8d8d8);">
+                    <div class="card-container" style="margin:2%;">
+                        <div class="row">
+                            <span class="col s6 m5 Qnum">Question : <span id="currentQ"></span></span>
+                            <span class="col s5 m2 l4 time" id="time"></span>
+                        </div>
+                        <div class="row" style="border-radius: 15px; margin:0.2%; background:linear-gradient(#23232362,#23232375);">
+                            <div class=""id="progress"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Score Card -->
+                <div class="card" id="score-card" style="background:linear-gradient(60deg,#cc91cc,#ffbef6);">
+                    <div class="card-container" >
+                    <p class="score" >Your Score is <span id="myscore">0</span></p>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <!-- Result Col Starts -->
+            <div id="result-col" class="col l12 s12" style="height:0%; width:100%; transition:2s;">
+                <div class="card" id="result-card" style="width:100%">
+                <div class="card-container">
+                    <div class="center-align" id="Result"></div>
+                </div>
+                </div>
+                </div>
+            </div>
+
+            
+            <!-- Main Row Ends -->
+        </div>
+    </div>
+    <footer class="page-footer">
+        <div class="footer-copyright">
+          <div class="container">
+          © 2020 Somerights are reserved by Areeb ur Rub
+          <a class="grey-text text-lighten-4 right" href="http://www.instagram.com/areeb.ur_rub">Follow me on Instagram</a>
+          </div>
+        </div>
+      </footer>
+    
+      <script src="question.js" type="text/javascript"></script>
+    <script src="app.js">
+    </script>
+</body>
+</html>
