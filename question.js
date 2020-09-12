@@ -9,31 +9,31 @@ question = {
       {
       "ans_opt": 3, 
       "num_opt": 4, 
-      "question_img": "/questions/1.png", 
+      "question_img": "questions/1.png", 
       "time": 15
       },
       {
       "ans_opt": 2, 
       "num_opt": 4, 
-      "question_img": "/questions/2.png", 
+      "question_img": "questions/2.png", 
       "time": 15
       },
       {
       "ans_opt": 4, 
       "num_opt": 4, 
-      "question_img": "/questions/3.png", 
+      "question_img": "questions/3.png", 
       "time": 24
       },
       {
       "ans_opt": 2, 
       "num_opt": 4, 
-      "question_img": "/questions/4.png", 
+      "question_img": "questions/4.png", 
       "time": 15
       },
       {
       "ans_opt": 3, 
       "num_opt": 4, 
-      "question_img": "/questions/5.png", 
+      "question_img": "questions/5.png", 
       "time": 30
       }
   ]
