@@ -1,3 +1,5 @@
+[Click here for DEMO](http://areeb-quiz.herokuapp.com/)
+
 ## A simple quiz app
 I have made this just for fun no special purpose
 <br>
